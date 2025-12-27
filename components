@@ -1,0 +1,37 @@
+components/.gitkeep
+  
+export default function Sidebar() {
+  return (
+    <aside style={{ padding: 16, borderRight: '1px solid #ddd' }}>
+      <h2>Menu</h2>
+    </aside>
+  )
+}
+
+export default function Dashboard() {
+  return <h1>Dashboard</h1>
+}
+    export default function PointOfSale() {
+  return <h1>Ponto de Venda</h1>
+}
+
+export default function GateControl() {
+  return <h1>Controle de Portão</h1>
+}
+    export default function Payment() {
+  return <h1>Pagamento</h1>
+}
+export default function Registry() {
+  return <h1>Cadastro</h1>
+}
+export default function History() {
+  return <h1>Histórico</h1>
+}
+export default function Settings() {
+  return <h1>Configurações</h1>
+}
+export default function Login() {
+  return <h1>Login</h1>
+}
+
+
