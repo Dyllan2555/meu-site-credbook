@@ -1,0 +1,5 @@
+{
+  "name": "Credbook PDV",
+  "description": "Sistema de gestão de carga e descarga (PDV) com controle de paletes, caixas e frotas.",
+  "requestFramePermissions": []
+}
