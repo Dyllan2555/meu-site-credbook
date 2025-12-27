@@ -1,15 +1,16 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 
-import Sidebar from './components/Sidebar';
-import Dashboard from './components/Dashboard';
-import PointOfSale from './components/PointOfSale';
-import GateControl from './components/GateControl';
-import Payment from './components/Payment';
-import Registry from './components/Registry';
-import History from './components/History';
-import Settings from './components/Settings';
-import Login from './components/Login';
+import Sidebar from './components/Sidebar'
+import Dashboard from './components/Dashboard'
+import PointOfSale from './components/PointOfSale'
+import GateControl from './components/GateControl'
+import Payment from './components/Payment'
+import Registry from './components/Registry'
+import History from './components/History'
+import Settings from './components/Settings'
+import Login from './components/Login'
+
 
 import { loadData, saveData } from './services/storage';
 import { fetchAllData, syncTable } from './services/supabase';
